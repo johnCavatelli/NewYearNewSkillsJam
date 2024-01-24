@@ -9,12 +9,13 @@ public class Note : Interactable
     public BoxCollider bc;
     private bool isNoteActive;
     public AudioSource doorAudio;
+    public GameObject setObjectActiveWithRead = null;
 
 
     private void Start() {
         isNoteActive = false;
         model.SetActive(true);
-        text.SetActive(false); 
+        text.SetActive(false);
         bc.enabled = true;
     }
 
@@ -24,6 +25,9 @@ public class Note : Interactable
         text.SetActive(true);
         bc.enabled = false;
         gameObject.GetComponent<AudioSource>().Play();
+        if(setObjectActiveWithRead != null){
+            setObjectActiveWithRead.SetActive(true);
+        }
     }
 
     private void canClose(){

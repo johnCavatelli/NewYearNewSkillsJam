@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "100-New Year New Skills Jam.sln"
+    "dotnet.defaultSolution": "NewYearNewSkillsJam.sln"
 }

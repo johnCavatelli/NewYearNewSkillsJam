@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af5b28b51349e654db11557ab8a53689, type: 3}
   m_Name: And5
   m_EditorClassIdentifier: 
-  device: 0
+  device: 5
   type: 0

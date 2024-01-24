@@ -40,9 +40,10 @@ public class IM : MonoBehaviour
         SetMouseLock(true);
     }
 
-    private void SetMouseLock(bool l){
+    public void SetMouseLock(bool l){
         lockedMouse = l;
-        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = l ? CursorLockMode.Locked : CursorLockMode.None;
         Cursor.visible = !l;
+        // print("setting lock " + l);
     }
 }

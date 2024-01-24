@@ -1,0 +1,53 @@
+Create Level 4 Environment
+Make Counter On Wall For num of flips left
+Make 10 total levels
+
+
+done:
+Model And OR Not Gates
+Create Level 3 Environment
+
+
+story:
+
+lvl 1:
+Employee,
+Recent activity in the area has caused many local 'RESIDENTS' to experience electrical malfunctions in 'THEIR' homes. This has led to many lights to be turned on, which cannot be tolerated. Your task is to simply turn off all lights. Once this task is complete your 'LEGAL TENDER' will be provided promptly. 
+
+lvl 2:
+Valued Employee,
+We appreciate your diligent efforts. As we continue to investigate these occurences, there is plenty more work to be done. Please stay 'DILLIGENT' and report any suspicious activity.
+
+lvl 3:
+Valued Employee,
+This device should allow you to peer into the 'RIFT' and see how devices are connected.
+If you need a refresher on what electrical connections exist, please consult your manual with [TAB]. Best of luck handling the 'RIFT'.
+
+lvl 4: 
+Senior Employee,
+Our investigation has revealed a new safety condition you may need to be aware of. Other employees have reported 'EXPLOSIVE' devices in job locations.
+This building has been deemed safe, but please dilligently look for a 'COUNTDOWN' apparatus or 'suspicious' device in all future job sites
+
+lvl 5:
+Senior Employee,
+Scans of this building do show signs of an 'EXPLOSIVE' device. Scans also indicate a 'COUNTDOWN' that exists inside, potentially invisible to 'YOUR' eyes. I expect your bond to the 'RIFT' to become stronger as a result.
+
+lvl 6:
+Our Employee,
+As our company evolves and changes, our policies have too. Checks for anti-personnel mine(s) will not be conducted going forward. We ensure your safety remains our top priority. The 'RIFT' should remain your family.
+
+lvl 7:
+My Employee,
+All of my expectations have been exceeded. You have made it a great length and your work has been invaluable to our 'OPERATION'. As I expect you to have deep feelings towards the 'RIFT', you can be assured the 'RIFT' feels similarly.
+
+lvl 8:
+Critical Employee,
+How does it feel, to peer into the 'RIFT'? The first time I could see the 'TRUTH' was like no other.
+
+lvl 9:
+Only Employee,
+
+
+lvl 10:
+One True Employee,
+As per your contract this will be your last 'JOB'. Please enjoy what is left of your 'HUMAN' life. And remember. Though you may not look into the 'RIFT', the 'RIFT' will always look into you. Do not attempt to contact us.

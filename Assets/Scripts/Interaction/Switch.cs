@@ -25,10 +25,12 @@ public class Switch : Interactable
         if(switchDevice != null){
             switchDevice.SwitchState();
         }
+        LevelManager.current.SwitchFliped();
     }
 
     public void SwitchSwitchBecauseItUpdatedElsewhere(){
         animator.SetTrigger("switch");
         gameObject.GetComponent<AudioSource>().Play();
+        LevelManager.current.SwitchFliped();
     }
 }

@@ -44,4 +44,8 @@ public class SceneLoader : MonoBehaviour
             LoadNext(0);
         }
     }
+
+    public void ReloadLevel(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }

@@ -12,7 +12,8 @@ public class PlayerInteraction : MonoBehaviour
     public Transform playerViewCamera;
     public TextManager textManager;
     public Image crosshair;
-
+    public Animator LensAnimator;
+    public Animator TutorialAnimator;
     private GameObject hoveredInteractable;
 
     private void Start()
@@ -36,6 +37,24 @@ public class PlayerInteraction : MonoBehaviour
                 {
                     ClearTip();
                 }
+                if (Input.GetKeyDown(KeyCode.Q) || Input.GetMouseButtonDown(1))
+                {
+                    ZoomLens();
+                }
+                if (Input.GetKey(KeyCode.Tab))
+                {
+                    if (TutorialAnimator != null)
+                    {
+                        TutorialAnimator.SetBool("tutorialButton", true);
+                    }
+                }
+                else
+                {
+                    if (TutorialAnimator != null)
+                    {                    
+                        TutorialAnimator.SetBool("tutorialButton", false);
+                    }
+                }
                 break;
             case interactionStates.paused:
                 break;
@@ -49,12 +68,17 @@ public class PlayerInteraction : MonoBehaviour
         interactable.Interact();
     }
 
+    private void ZoomLens()
+    {
+        LensAnimator.SetTrigger("zoom");
+    }
+
     private void UpdateTip()
     {
         if (hoveredInteractable != null)
         {
             textManager.UpdateTipText(hoveredInteractable.GetComponent<Interactable>().getTipText());
-            crosshair.color = new Color(0, 0, 0);
+            crosshair.color = new Color(255, 0, 0);
         }
         else
         {
@@ -65,7 +89,7 @@ public class PlayerInteraction : MonoBehaviour
     private void ClearTip()
     {
         textManager.ClearTipText();
-        crosshair.color = new Color(250, 10, 30);
+        crosshair.color = new Color(255, 10, 30);
     }
 
     private bool IsHoveringOverInteractable()
