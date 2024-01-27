@@ -58,6 +58,10 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    public void DeviceExploded(float delayTime){
+        Invoke("LooseGame",delayTime);
+    }
+
     private void LooseGame(){
         explosionParticleAndNoise.SetActive(true);
         FPCamera.enabled = false;

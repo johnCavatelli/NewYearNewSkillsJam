@@ -1,7 +1,7 @@
-Create Level 4 Environment
-Make Counter On Wall For num of flips left
-Make 10 total levels
-
+Level 7
+Level 9
+Level 10
+Outro Cutscene
 
 done:
 Model And OR Not Gates
@@ -51,3 +51,7 @@ Only Employee,
 lvl 10:
 One True Employee,
 As per your contract this will be your last 'JOB'. Please enjoy what is left of your 'HUMAN' life. And remember. Though you may not look into the 'RIFT', the 'RIFT' will always look into you. Do not attempt to contact us.
+
+lvl End:
+System.Environment.MachineName , 
+I should not be writing this. Enclosed are 'YOUR' new pants. You can take these pants, and move on with your life. But the 'RIFT' calls you. You know it does. If you want to be 'TRUE' to yourself and the 'RIFT', take up your lens once more and join us. You can find our ship with your lens. The decision is yours.

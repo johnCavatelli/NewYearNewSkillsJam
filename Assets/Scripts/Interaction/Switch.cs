@@ -8,6 +8,7 @@ public class Switch : Interactable
     public Animator animator;
     public bool startOn;
     public SwitchDevice switchDevice;
+    public bool locked = false;//can disable a switch from being flipped
 
     private void Start()
     {
@@ -19,16 +20,21 @@ public class Switch : Interactable
 
     public override void Interact()
     {
-        // print("In switch");
-        gameObject.GetComponent<AudioSource>().Play();
-        animator.SetTrigger("switch");
-        if(switchDevice != null){
-            switchDevice.SwitchState();
+        if (!locked)
+        {
+            // print("In switch");
+            gameObject.GetComponent<AudioSource>().Play();
+            animator.SetTrigger("switch");
+            if (switchDevice != null)
+            {
+                switchDevice.SwitchState();
+            }
+            LevelManager.current.SwitchFliped();
         }
-        LevelManager.current.SwitchFliped();
     }
 
-    public void SwitchSwitchBecauseItUpdatedElsewhere(){
+    public void SwitchSwitchBecauseItUpdatedElsewhere()
+    {
         animator.SetTrigger("switch");
         gameObject.GetComponent<AudioSource>().Play();
         LevelManager.current.SwitchFliped();

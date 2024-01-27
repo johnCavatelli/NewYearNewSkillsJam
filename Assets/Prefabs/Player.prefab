@@ -57,7 +57,7 @@ MonoBehaviour:
   stamina: 3.87
   walkSpeed: 2
   slideSpeed: 7
-  airbornSpeed: 2
+  airbornSpeed: 5
   airAccelerationMultiplier: 0.8
   cyoteTime: 0.1
   dashSpeed: 0
@@ -66,7 +66,7 @@ MonoBehaviour:
   dashCooldown: 0
   groundDrag: 10
   jumpForce: 10
-  jumpCooldown: 0.5
+  jumpCooldown: 0.1
   terminalVelocity: 10
   whatIsGround:
     serializedVersion: 2
@@ -120,6 +120,8 @@ MonoBehaviour:
   playerViewCamera: {fileID: 0}
   textManager: {fileID: 0}
   crosshair: {fileID: 0}
+  LensAnimator: {fileID: 0}
+  TutorialAnimator: {fileID: 0}
 --- !u!1 &1849468719415831623
 GameObject:
   m_ObjectHideFlags: 0
