@@ -9,6 +9,7 @@ public class LevelManager : MonoBehaviour
     public static LevelManager current;
     public SceneLoader sceneLoader;
     public Animator doorAnimator;
+    public Animator fadeInOutManager;
     public Money money;
     public GameObject gotMoneyText;
 
@@ -24,7 +25,8 @@ public class LevelManager : MonoBehaviour
     private void Awake()
     {
         current = this;
-        countdownText.text = switchFlips.ToString();
+        if(countdownText != null){
+        countdownText.text = switchFlips.ToString();}
     }
 
     public void CompleteLevel()
@@ -43,6 +45,8 @@ public class LevelManager : MonoBehaviour
     {
         sceneLoader.Load(2.01f);
         gotMoneyText.SetActive(true);
+        if(fadeInOutManager!=null){fadeInOutManager.SetTrigger("dimQuick");}
+
     }
 
     internal void OpenDoorStartLevel()
@@ -52,8 +56,8 @@ public class LevelManager : MonoBehaviour
 
     public void SwitchFliped(){
         switchFlips--;
-        countdownText.text = switchFlips.ToString();
-        if(switchFlips ==0){
+        if(countdownText!=null){countdownText.text = switchFlips.ToString();}
+        if(switchFlips <0){
             LooseGame();
         }
     }

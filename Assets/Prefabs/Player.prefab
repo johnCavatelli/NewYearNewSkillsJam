@@ -57,7 +57,7 @@ MonoBehaviour:
   stamina: 3.87
   walkSpeed: 2
   slideSpeed: 7
-  airbornSpeed: 5
+  airbornSpeed: 4.5
   airAccelerationMultiplier: 0.8
   cyoteTime: 0.1
   dashSpeed: 0
@@ -116,7 +116,7 @@ MonoBehaviour:
   interactionDistance: 4
   interactionMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 65
   playerViewCamera: {fileID: 0}
   textManager: {fileID: 0}
   crosshair: {fileID: 0}

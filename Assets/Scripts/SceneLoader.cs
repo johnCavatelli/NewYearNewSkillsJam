@@ -22,6 +22,11 @@ public class SceneLoader : MonoBehaviour
 
     }
 
+    public void Load(int level, float time){
+        StartCoroutine(ActuallyLoad(level, time));
+
+    }
+
     public void LoadNext(float time)
     {
         StartCoroutine(ActuallyLoad(SceneManager.GetActiveScene().buildIndex + 1, time));

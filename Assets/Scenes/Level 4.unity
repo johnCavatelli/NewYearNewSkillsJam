@@ -1715,7 +1715,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 47a82950d39e33242ac449428c7a74d9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 68499c95b4fbf8f4f839093bdbb21f70, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.252
   m_Pitch: 1
@@ -2443,6 +2443,10 @@ PrefabInstance:
       propertyPath: countdownText
       value: 
       objectReference: {fileID: 521245368}
+    - target: {fileID: 8122468905614474446, guid: 21320b7ae3ea2054db5847d8216e9f5e, type: 3}
+      propertyPath: fadeInOutManager
+      value: 
+      objectReference: {fileID: 2018538918}
     - target: {fileID: 8122468905614474446, guid: 21320b7ae3ea2054db5847d8216e9f5e, type: 3}
       propertyPath: restartLevelButton
       value: 
@@ -10411,6 +10415,11 @@ PrefabInstance:
 --- !u!1 &2018538917 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1066179530494429368, guid: b02bdd63e90783a48b39577a6d6aff08, type: 3}
+  m_PrefabInstance: {fileID: 2018538916}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2018538918 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1645337826896117640, guid: b02bdd63e90783a48b39577a6d6aff08, type: 3}
   m_PrefabInstance: {fileID: 2018538916}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2043573852 stripped

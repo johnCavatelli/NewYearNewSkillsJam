@@ -51,7 +51,7 @@ public class PlayerInteraction : MonoBehaviour
                 else
                 {
                     if (TutorialAnimator != null)
-                    {                    
+                    {
                         TutorialAnimator.SetBool("tutorialButton", false);
                     }
                 }
@@ -71,6 +71,12 @@ public class PlayerInteraction : MonoBehaviour
     private void ZoomLens()
     {
         LensAnimator.SetTrigger("zoom");
+    }
+
+    public void Imobilize()
+    {//imobilize player for cutscene
+        interactionState = interactionStates.paused;
+        ClearTip();
     }
 
     private void UpdateTip()
@@ -97,9 +103,12 @@ public class PlayerInteraction : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(playerViewCamera.position, playerViewCamera.forward, out hit, interactionDistance, interactionMask))
         {
-            hoveredInteractable = hit.transform.gameObject;
-            //print("Hovering Over Interactable");
-            return true;
+            if (hit.transform.gameObject.layer == LayerMask.NameToLayer("Interaction"))
+            {
+                hoveredInteractable = hit.transform.gameObject;
+                //print("Hovering Over Interactable");
+                return true;
+            }
         }
         return false;
     }

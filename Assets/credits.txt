@@ -1,11 +1,23 @@
-https://lowpolyassets.itch.io/low-poly-household-item-pack
+Big thanks to Clement Panchout and SkyleTheFrench for the BG audio!
 
 https://clement-panchout.itch.io/yet-another-free-music-pack
 
-https://free3d.com/3d-model/stacks-of-money-52211.html
+https://opengameart.org/content/dark-place-loop
 
-https://www.dafont.com/alagard.font
+Models:
+
+https://lowpolyassets.itch.io/low-poly-household-item-pack
+
+https://free3d.com/3d-model/stacks-of-money-52211.html
 
 https://opengameart.org/content/hats-clothing-props
 
-Zapsplat for sounds
+https://opengameart.org/content/hextraction-base-player-pod
+
+
+Font:
+
+https://www.dafont.com/alagard.font
+
+
+zapsplat.com sourced most SFX

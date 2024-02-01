@@ -469,6 +469,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 97768302}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &110778345 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1645337826896117640, guid: b02bdd63e90783a48b39577a6d6aff08, type: 3}
+  m_PrefabInstance: {fileID: 2018538916}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &207272623 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1387313544219857293, guid: b02bdd63e90783a48b39577a6d6aff08, type: 3}
@@ -1655,6 +1660,10 @@ PrefabInstance:
       propertyPath: gotMoneyText
       value: 
       objectReference: {fileID: 1355356536}
+    - target: {fileID: 8122468905614474446, guid: 21320b7ae3ea2054db5847d8216e9f5e, type: 3}
+      propertyPath: fadeInOutManager
+      value: 
+      objectReference: {fileID: 110778345}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2155,6 +2164,7 @@ MonoBehaviour:
   text: {fileID: 1186919050}
   bc: {fileID: 1082335527}
   doorAudio: {fileID: 679090908385895376}
+  setObjectActiveWithRead: {fileID: 0}
 --- !u!65 &1082335527
 BoxCollider:
   m_ObjectHideFlags: 0

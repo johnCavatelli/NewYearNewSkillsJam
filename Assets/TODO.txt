@@ -1,12 +1,11 @@
 Level 7
 Level 9
 Level 10
-Outro Cutscene
 
-done:
-Model And OR Not Gates
-Create Level 3 Environment
 
+Timer and flips for speedrun
+Hold to close note
+Restarting Levels
 
 story:
 
@@ -46,7 +45,7 @@ How does it feel, to peer into the 'RIFT'? The first time I could see the 'TRUTH
 
 lvl 9:
 Only Employee,
-
+Even the 'WORST' danger is no match for you with the 'RIFT' by your side. It is unfortunate that you will have to live without the 'RIFT' once your job is complete. right? Is it fair?
 
 lvl 10:
 One True Employee,

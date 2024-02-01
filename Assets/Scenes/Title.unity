@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Phantom Electric
+  m_text: '''RIFT'' Electric'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 293aa18bdf98d884f8136df8b15265df, type: 2}
   m_sharedMaterial: {fileID: 8191530942046424016, guid: 293aa18bdf98d884f8136df8b15265df, type: 2}
@@ -846,7 +846,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Phantom Electric
+  m_text: '''RIFT'' Electric'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 293aa18bdf98d884f8136df8b15265df, type: 2}
   m_sharedMaterial: {fileID: 8191530942046424016, guid: 293aa18bdf98d884f8136df8b15265df, type: 2}
@@ -1154,7 +1154,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Phantom Electric
+  m_text: '''RIFT'' Electric'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 293aa18bdf98d884f8136df8b15265df, type: 2}
   m_sharedMaterial: {fileID: 8191530942046424016, guid: 293aa18bdf98d884f8136df8b15265df, type: 2}
@@ -1288,7 +1288,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Phantom Electric
+  m_text: '''RIFT'' Electric'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 293aa18bdf98d884f8136df8b15265df, type: 2}
   m_sharedMaterial: {fileID: 8191530942046424016, guid: 293aa18bdf98d884f8136df8b15265df, type: 2}
@@ -1652,7 +1652,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Phantom Electric
+  m_text: '''RIFT'' Electric'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 293aa18bdf98d884f8136df8b15265df, type: 2}
   m_sharedMaterial: {fileID: 8191530942046424016, guid: 293aa18bdf98d884f8136df8b15265df, type: 2}

@@ -42,7 +42,7 @@ public class Note : Interactable
     }
 
     private void Update() {
-        if(isNoteActive && (Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonDown(0))){
+        if(isNoteActive && (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Q))){
             isNoteActive = false;
             text.SetActive(false);
             Destroy(gameObject);
