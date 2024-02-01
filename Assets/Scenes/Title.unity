@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -200.9, y: 157.8}
-  m_SizeDelta: {x: 329.54, y: 108.2}
+  m_AnchoredPosition: {x: -343, y: 141.6}
+  m_SizeDelta: {x: 329.54, y: 105.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &71516624
 MonoBehaviour:
@@ -182,8 +182,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '''RIFT'' Electric'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 293aa18bdf98d884f8136df8b15265df, type: 2}
-  m_sharedMaterial: {fileID: 8191530942046424016, guid: 293aa18bdf98d884f8136df8b15265df, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6e90421c7bc73d54195b4ff360e4dc66, type: 2}
+  m_sharedMaterial: {fileID: 6443170289165729520, guid: 6e90421c7bc73d54195b4ff360e4dc66, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -362,8 +362,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 166, y: -144}
-  m_SizeDelta: {x: 226.09, y: 91.7}
+  m_AnchoredPosition: {x: 192.6, y: -144}
+  m_SizeDelta: {x: 226.09, y: 160.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &143660391
 MonoBehaviour:
@@ -823,8 +823,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -200.9, y: -8.3}
-  m_SizeDelta: {x: 329.54, y: 108.2}
+  m_AnchoredPosition: {x: -343, y: -8.3}
+  m_SizeDelta: {x: 329.54, y: 105.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &429216187
 MonoBehaviour:
@@ -848,8 +848,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '''RIFT'' Electric'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 293aa18bdf98d884f8136df8b15265df, type: 2}
-  m_sharedMaterial: {fileID: 8191530942046424016, guid: 293aa18bdf98d884f8136df8b15265df, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 987181ad6994d61429c5370051789e65, type: 2}
+  m_sharedMaterial: {fileID: 4215860463022285441, guid: 987181ad6994d61429c5370051789e65, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1131,8 +1131,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -200.9, y: 90.4}
-  m_SizeDelta: {x: 329.54, y: 108.2}
+  m_AnchoredPosition: {x: -343, y: 90.4}
+  m_SizeDelta: {x: 329.54, y: 105.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &781590130
 MonoBehaviour:
@@ -1156,8 +1156,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '''RIFT'' Electric'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 293aa18bdf98d884f8136df8b15265df, type: 2}
-  m_sharedMaterial: {fileID: 8191530942046424016, guid: 293aa18bdf98d884f8136df8b15265df, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6e90421c7bc73d54195b4ff360e4dc66, type: 2}
+  m_sharedMaterial: {fileID: 6443170289165729520, guid: 6e90421c7bc73d54195b4ff360e4dc66, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1265,8 +1265,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -200.9, y: 34.1}
-  m_SizeDelta: {x: 329.54, y: 108.2}
+  m_AnchoredPosition: {x: -343, y: 32.4}
+  m_SizeDelta: {x: 329.54, y: 105.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &850472258
 MonoBehaviour:
@@ -1290,8 +1290,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '''RIFT'' Electric'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 293aa18bdf98d884f8136df8b15265df, type: 2}
-  m_sharedMaterial: {fileID: 8191530942046424016, guid: 293aa18bdf98d884f8136df8b15265df, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6e90421c7bc73d54195b4ff360e4dc66, type: 2}
+  m_sharedMaterial: {fileID: 6443170289165729520, guid: 6e90421c7bc73d54195b4ff360e4dc66, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1629,8 +1629,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -200.9, y: 233}
-  m_SizeDelta: {x: 329.54, y: 108.2}
+  m_AnchoredPosition: {x: -343, y: 233}
+  m_SizeDelta: {x: 329.54, y: 105.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1225039300
 MonoBehaviour:
@@ -1654,8 +1654,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '''RIFT'' Electric'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 293aa18bdf98d884f8136df8b15265df, type: 2}
-  m_sharedMaterial: {fileID: 8191530942046424016, guid: 293aa18bdf98d884f8136df8b15265df, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6e90421c7bc73d54195b4ff360e4dc66, type: 2}
+  m_sharedMaterial: {fileID: 6443170289165729520, guid: 6e90421c7bc73d54195b4ff360e4dc66, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1679,8 +1679,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 78.8
-  m_fontSizeBase: 78.8
+  m_fontSize: 104.3
+  m_fontSizeBase: 104.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2757,8 +2757,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68.5
-  m_fontSizeBase: 68.5
+  m_fontSize: 82.1
+  m_fontSizeBase: 82.1
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

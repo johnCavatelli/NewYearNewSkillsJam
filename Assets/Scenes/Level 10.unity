@@ -6005,6 +6005,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5839293937366161423, guid: 1165934687c63d943b332e98c17a47ca, type: 3}
+      propertyPath: m_Color.b
+      value: 0.019191265
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839293937366161423, guid: 1165934687c63d943b332e98c17a47ca, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839293937366161423, guid: 1165934687c63d943b332e98c17a47ca, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6852196307599748347, guid: 1165934687c63d943b332e98c17a47ca, type: 3}
       propertyPath: m_Name
       value: Exploding Lamp
@@ -7363,15 +7375,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6065135194900526690, guid: cc37f360516dc3a4c8c65d83fb557961, type: 3}
       propertyPath: m_Color.b
-      value: 0.41141367
-      objectReference: {fileID: 0}
-    - target: {fileID: 6065135194900526690, guid: cc37f360516dc3a4c8c65d83fb557961, type: 3}
-      propertyPath: m_Color.g
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6065135194900526690, guid: cc37f360516dc3a4c8c65d83fb557961, type: 3}
-      propertyPath: m_Color.r
+      propertyPath: m_Color.g
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6065135194900526690, guid: cc37f360516dc3a4c8c65d83fb557961, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8152735
       objectReference: {fileID: 0}
     - target: {fileID: 6065135194900526690, guid: cc37f360516dc3a4c8c65d83fb557961, type: 3}
       propertyPath: m_Intensity

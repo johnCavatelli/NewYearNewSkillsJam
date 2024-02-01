@@ -68,15 +68,16 @@ public class PlayerMovement : MonoBehaviour
         CheckGrounded();
         HandleMouseLook();
         HandleInput();
-        MovePlayer();
-        SpeedControl();
+        // MovePlayer();
+        // SpeedControl();
         // print(moveState + " moveDir" + moveDirection);
         ApplyDrag();
     }
 
     private void FixedUpdate()
-    {
+    {        
         MovePlayer();
+        SpeedControl();
     }
 
     private void ApplyDrag()
@@ -161,7 +162,7 @@ public class PlayerMovement : MonoBehaviour
         // limit velocity if needed
         if (flatVel.magnitude > desiredMoveSpeed)
         {
-            float calculatedMoveSpeed = Mathf.Lerp(moveSpeed, desiredMoveSpeed, decelleration * Time.deltaTime);
+            float calculatedMoveSpeed = Mathf.Lerp(moveSpeed, desiredMoveSpeed, decelleration * Time.fixedDeltaTime);
             Vector3 limitedVel = flatVel.normalized * calculatedMoveSpeed;
 
             rb.velocity = new Vector3(limitedVel.x, rb.velocity.y > terminalVelocity ? terminalVelocity : rb.velocity.y, limitedVel.z);

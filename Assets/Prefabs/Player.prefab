@@ -55,10 +55,10 @@ MonoBehaviour:
   startingRotation: {x: 0, y: 0, z: 0}
   playerHeight: 2
   stamina: 3.87
-  walkSpeed: 2
+  walkSpeed: 5
   slideSpeed: 7
-  airbornSpeed: 4.5
-  airAccelerationMultiplier: 0.8
+  airbornSpeed: 10
+  airAccelerationMultiplier: 0.7
   cyoteTime: 0.1
   dashSpeed: 0
   dashForce: 0

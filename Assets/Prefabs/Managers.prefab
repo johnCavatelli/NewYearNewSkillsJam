@@ -67,7 +67,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b664dfa40e5dcd4b8224c0e6b26beec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resetKey: 114
+  resetKey: 278
   player: {fileID: 0}
 --- !u!114 &907718011981058262
 MonoBehaviour:
@@ -114,8 +114,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneLoader: {fileID: 3563052100633928781}
   doorAnimator: {fileID: 0}
+  fadeInOutManager: {fileID: 0}
   money: {fileID: 0}
   gotMoneyText: {fileID: 0}
+  switchFlips: -1
+  LooseCamera: {fileID: 0}
+  FPCamera: {fileID: 0}
+  explosionParticleAndNoise: {fileID: 0}
+  restartLevelButton: {fileID: 0}
+  countdownText: {fileID: 0}
 --- !u!114 &3563052100633928781
 MonoBehaviour:
   m_ObjectHideFlags: 0
